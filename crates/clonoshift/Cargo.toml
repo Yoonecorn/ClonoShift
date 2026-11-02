@@ -1,0 +1,19 @@
+[package]
+name = "clonoshift"
+version.workspace = true
+license.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+csv.workspace = true
+sha2.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tempfile.workspace = true
+libc.workspace = true
+
+[dev-dependencies]
+# Preserve exact f64 fixture inputs at the support boundary; no new package/version.
+serde_json = { workspace = true, features = ["float_roundtrip"] }

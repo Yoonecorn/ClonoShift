@@ -1,0 +1,5 @@
+# Third-party notices and scientific attribution
+
+ClonoShift Extended is the ClonoShift-developed corrected extension. ClonoShift Core is a NoisET-compatible Rust reimplementation/port. NoisET is the upstream software and scientific reference: its source header records copyright © 2021 Meriem Bensouda Koraichi and GNU GPL version 3 or any later version; the upstream license file contains GPL version 3. See PROVENANCE.md for the pinned upstream revision, the full NoisET author list and scientific citations. This is a provenance and attribution notice, not a legal conclusion about historical derivation. The package does not include NoisET Python source or upstream-invoking oracle scripts.
+
+Cargo dependencies are not vendored. `docs/DEPENDENCY_LICENSES.json` records their locked versions, license expressions and available notice hashes. The associated license and notice texts obtained from the corresponding local registry packages are included under `third-party/` where available. No third-party biological dataset is included; see `docs/DATA_SOURCES.md`.

@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "Cite ClonoShift, the NoisET software and the underlying scientific methods."
+title: "ClonoShift: repertoire count analysis"
+type: software
+version: "1.0.0"
+license: GPL-3.0-or-later
+authors:
+  - name: "ClonoShift project contributors"
+references:
+  - type: software
+    title: "NoisET"
+    authors:
+      - family-names: "Bensouda Koraichi"
+        given-names: "Meriem"
+    url: "https://github.com/statbiophys/NoisET"
+    commit: "2b6a45fcd26e7f9eefb3004d81725355cf6d66c9"
+  - type: article
+    title: "NoisET: Noise learning and Expansion detection of T-cell receptors"
+    authors:
+      - family-names: "Bensouda Koraichi"
+        given-names: "Meriem"
+      - family-names: "Puelma Touzel"
+        given-names: "Maximilian"
+      - family-names: "Mazzolini"
+        given-names: "Andrea"
+      - family-names: "Mora"
+        given-names: "Thierry"
+      - family-names: "Walczak"
+        given-names: "Aleksandra M."
+    year: 2021
+    doi: "10.48550/arXiv.2102.03568"
+  - type: article
+    title: "Inferring the immune response from repertoire sequencing"
+    authors:
+      - family-names: "Puelma Touzel"
+        given-names: "Maximilian"
+      - family-names: "Walczak"
+        given-names: "Aleksandra M."
+      - family-names: "Mora"
+        given-names: "Thierry"
+    year: 2020
+    doi: "10.1371/journal.pcbi.1007873"

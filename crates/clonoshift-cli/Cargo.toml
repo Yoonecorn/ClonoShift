@@ -1,0 +1,20 @@
+[package]
+name = "clonoshift-cli"
+version.workspace = true
+license.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish = false
+
+[[bin]]
+name = "clonoshift"
+path = "src/main.rs"
+
+[dependencies]
+serde_json.workspace = true
+tempfile.workspace = true
+clonoshift = { path = "../clonoshift", version = "=1.0.0" }
+
+[dev-dependencies]
+tempfile.workspace = true
+serde_json.workspace = true

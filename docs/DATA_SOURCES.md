@@ -1,0 +1,3 @@
+# Data acquisition
+
+No real TCR or BCR data are included. Obtain data directly from the original sources, check each asset's current access conditions and license, and cite the dataset authors. Publication of an article does not itself grant redistribution rights to its underlying data. Examples of historical qualification sources include Minervina Zenodo 4065547, Kim/Zhou Zenodo 5895181, Matz Zenodo 13929847, Rytlewski et al. DOI 10.1371/journal.pone.0213684, and YF2018 DOI 10.1073/pnas.1809642115. Availability, permissions and intended use must be checked with the source; the package does not bypass access controls.

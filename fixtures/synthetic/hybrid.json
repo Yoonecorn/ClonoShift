@@ -1,0 +1,12 @@
+{
+  "noise": {
+    "model": "poisson",
+    "parameter_order": ["exponent", "minimum_frequency"],
+    "parameters": [-1.364581788686987, 0.003214439795261944],
+    "source": "qualified_legacy_fit",
+    "source_reference": "synthetic replicate example",
+    "legacy_model_file": "../../fit/model.json"
+  },
+  "response_prior": {"response_probability": 0.2, "scale": 1.0, "points": 33, "stride": 1, "maximum_shift": 6},
+  "effect_delta": 0.3
+}
